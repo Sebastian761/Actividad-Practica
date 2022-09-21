@@ -7,6 +7,10 @@ header nav{
     background-color: rgb(247, 245, 245);
 }
 
+main .row{
+    min-width: 100%;
+}
+
 div .imagen{
     min-height: 20vw;
 }
