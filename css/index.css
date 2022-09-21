@@ -1,0 +1,28 @@
+form .botoncito{
+    background-color: transparent;
+    color: green;
+}
+
+header nav{
+    background-color: rgb(247, 245, 245);
+}
+
+div .imagen{
+    height: 270px;
+}
+
+div .card-footer{
+    background-color: transparent;
+    border: 0px;
+    color: rgb(126, 126, 126);
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+div .texto{
+    color: rgb(126, 126, 126);
+}
+
+form .boton{
+    margin-top: 20px;
+}
