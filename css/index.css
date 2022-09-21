@@ -8,7 +8,7 @@ header nav{
 }
 
 div .imagen{
-    height: 270px;
+    min-height: 20vw;
 }
 
 div .card-footer{
