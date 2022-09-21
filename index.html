@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Actividad Practica</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <a class="navbar-brand">Codo a Codo</a>
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Desactivado</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Buscar">
+                  <button class="btn btn-success botoncito" type="button">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img src="./img/HTML.jpg" class="card-img-top imagen" alt="HTML">
+            <div class="card-body">
+              <h5 class="card-title">Titulo 1</h5>
+              <p class="card-text">Contenido de card</p>
+            </div>
+            <div class="card-footer">Ultima actualizacion 1</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="./img/CSS.png" class="card-img-top imagen" alt="HTML">
+            <div class="card-body">
+              <h5 class="card-title">Titulo 2</h5>
+              <p class="card-text">Contenido de card</p>
+            </div>
+            <div class="card-footer">Ultima actualizacion 1</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="./img/B5.png" class="card-img-top imagen" alt="HTML">
+            <div class="card-body">
+              <h5 class="card-title">Titulo 3</h5>
+              <p class="card-text">Contenido de card</p>
+            </div>
+            <div class="card-footer">Ultima actualizacion 1</div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <form>
+          <div>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email">
+            <p class="texto">Nunca comparta su email</p>
+          </div>
+          <div>
+            <label for="pwd" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="pwd" name="pswd">
+          </div>
+          <div class="form-check verificador">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="verificacion"> Verificar
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary boton">Enviar</button>
+        </form>
+      </section>
+    </main>
+</body>
+</html>
