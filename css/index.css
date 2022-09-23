@@ -4,17 +4,11 @@ form .botoncito{
 }
 
 header nav{
-    max-width: 100%;
     background-color: rgb(247, 245, 245);
-}
-
-main .row {
-    max-width: 100%;
 }
 
 div img{
    height: 35vh;
-   width: 100%;
 }
 
 div .card-footer{
