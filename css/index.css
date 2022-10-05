@@ -11,6 +11,10 @@ div img{
    height: 35vh;
 }
 
+main .col-4{
+    padding: 0;
+}
+
 div .card-footer{
     background-color: transparent;
     border: 0px;
